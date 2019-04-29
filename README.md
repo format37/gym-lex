@@ -1,28 +1,3 @@
-<<<<<<< HEAD
-installation
-
-- go where gym package installed
-
-cd ~/.local/lib/python3.6/site-packages/gym/envs
-
-- clone this repository
-
-git clone https://github.com/format37/gym-lex.git
-
-- install this environment
-
-pip3 install -e gym-lex
-
-- install xvfb for notebook animations
-
-sudo apt install xvfb
-
-run the notebook
-
-xvfb-run -s "-screen 0 1400x900x24" jupyter notebook
-
-- open gym-lex/cartpole.ipynb and run
-=======
 **installation**
 
 *- go where gym package installed*
@@ -46,4 +21,3 @@ sudo apt install xvfb
 xvfb-run -s "-screen 0 1400x900x24" jupyter notebook
 
 *- open gym-lex/cartpole.ipynb and run*
->>>>>>> 476f0706b32102f37c4e5f440ff806dbb3e4dab2
